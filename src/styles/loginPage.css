@@ -51,6 +51,7 @@ span {
 .nav ul li a {
     color: white;
     padding: 15px 10px;
+    cursor: pointer;
 }
 
 .nav ul li a:hover {

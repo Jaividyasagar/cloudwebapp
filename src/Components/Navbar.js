@@ -24,7 +24,8 @@ const NavBar=()=>{
             <li><a href="#">Home</a></li>
             <li><a onClick={()=>navigation('/list')} className="items">Files</a></li>
             <li><a onClick={()=>navigation('/upload')} className="items">Upload</a></li>
-            <li><a onClick={appdownload} className="items">Download App</a></li>
+            {/* <li><a onClick={appdownload} className="items">Download App</a></li> */}
+            <li><a onClick={()=>navigation('/download-apk/')} className="items">Download App</a></li>
             <li><a onClick={logoutHandler} className="items">Logout</a></li>
         </ul>
 
